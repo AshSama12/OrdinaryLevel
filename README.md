@@ -1,2 +1,2 @@
 # OrdinaryLevel
-for study
+for students
