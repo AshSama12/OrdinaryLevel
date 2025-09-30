@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Welcome to O/L PrepZone</h1>
+        <p class="lead">Your gateway to O/Level success!</p>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Mathematics</h3>
+                    <p class="card-text">Master mathematical concepts and problem-solving skills.</p>
+                    <a asp-controller="Subjects" asp-action="Details" asp-route-id="1" class="btn btn-primary">Start
+                        Learning</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3 class="card-title">English</h3>
+                    <p class="card-text">Improve your language and communication skills.</p>
+                    <a asp-controller="Subjects" asp-action="Details" asp-route-id="2" class="btn btn-primary">Start
+                        Learning</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Science</h3>
+                    <p class="card-text">Explore scientific concepts and experiments.</p>
+                    <a asp-controller="Subjects" asp-action="Details" asp-route-id="3" class="btn btn-primary">Start
+                        Learning</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Daily Motivation</h4>
+                    <p class="card-text">"Success is not final, failure is not fatal: it is the courage to continue that
+                        counts."</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Progress Tracker</h4>
+                    <div class="progress mb-2">
+                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100">Maths 65%</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">English 70%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">Science 80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
